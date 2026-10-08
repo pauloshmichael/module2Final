@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Directory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <h1>COMPANY USERS INFORMATION</h1>
+    </header>
+
+    <main>
+        <form class="form">
+            <input type="search" id="search-input" placeholder="Search..." aria-label="Search">
+            <button id="btn" type="submit">Search</button>
+        </form>
+
+        <section>
+            <p class="loading-error" role="status"></p>
+            <h2 class="title">Main Data</h2>
+            <div class="card-grid" id="main-grid"></div>
+        </section>
+
+        <section id="favo">
+            <h2 class="title">Favorites</h2>
+            <div class="card-grid" id="fav-grid"></div>
+        </section>
+    </main>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
